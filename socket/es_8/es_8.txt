@@ -1,0 +1,11 @@
+Si scriva un programma di tipo client server dove il server riceve una stringa 
+e un carattere. Il server rimuove quindi dalla stringa il carattere ogni volta che esso compare.
+Il server deve inviare al client la stringa senza il carattere.
+Si controllino opportunamente argc e argv sia nel client che nel server
+
+Esempio
+$ python3 server.py <porta>
+$ python3 server.py 50000
+
+$ python3 client.py <server-ip> <porta> <stringa> <carattere>
+$ python3 server.py 192.168.2.75 50000 tutti t

@@ -1,4 +1,4 @@
-#inverti stringa
+# inverti stringa
 import socket
 
 
@@ -17,6 +17,7 @@ PORT = 5009
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
 s.listen(6)
+
 while 1:
     conn, addr = s.accept()
     data = conn.recv(1024).decode()

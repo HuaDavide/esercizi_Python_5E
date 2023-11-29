@@ -1,0 +1,3 @@
+Si scriva un programma client server dove il client invia al server un'immagine.
+Il server riceve l'immagine, ne calcola l'md5 e la rimanda al client. 
+Il client confronta l'md5 ricevuto con l'md5 calcolato e in caso non combacino mostri a video un errore
